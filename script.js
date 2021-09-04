@@ -7,14 +7,12 @@ class Blog{
     addTitle(){
         var title_card = document.createElement('h1');
         title_card.setAttribute("id","blog-title");
-        console.log(title_card);
         document.getElementById('card-text').appendChild(title_card);
         title_card.innerHTML += this.title;
     }
     addDescription(){
         var description_card = document.createElement('h1');
         description_card.setAttribute("id","blog-title");
-        console.log(title_card);
         document.getElementById('card-text').appendChild(description_card);
         description_card.innerHTML += this.title;
 
